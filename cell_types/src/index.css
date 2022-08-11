@@ -16,3 +16,22 @@
   margin-left: 40%; /* get back to this to center align properly */
 }
 
+.cell {
+  width: 300px;
+}
+
+.cell--name {
+  font-family: 'Marcellus', serif;
+  margin-bottom: 10px;
+}
+
+.cell--img {
+  width: 100%; /* so that the image does not go outside the bounderies of the cell */
+  border-radius: 10px;
+}
+
+.description {
+  font-size: 12px;
+  font-family: 'Marcellus', serif;
+  text-align: justify;
+}
