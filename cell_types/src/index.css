@@ -1,0 +1,18 @@
+.nav {
+  height: 70px;
+  background-color: beige;
+  padding: 10px 10px;
+  box-shadow: 0px 2.7px 7.4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  font-family: 'Marcellus', serif;
+}
+
+.nav--logo {
+  max-width:  100px;
+}
+
+.nav--title {
+  margin-left: 40%; /* get back to this to center align properly */
+}
+
