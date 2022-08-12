@@ -6,15 +6,20 @@ import data from './data';
 function App() {
 
   const cells = data.map(cell => {
-    return <Cell cellName = {cell.cellName}
-                 img = {`../../images/${cell.image}`}
-                 description = {cell.description}/>
+    return <Cell 
+                key = {cell.id}
+                cellName = {cell.cellName}
+                img = {`../../images/${cell.image}`}
+                description = {cell.description}
+                blackAndWhite = {cell.blackAndWhite}/>
   })
 
   return (
     <div className="App">
       <Navbar/>
-      {cells}
+      <section className='cells-list'>
+        {cells}
+      </section>
     </div>
   );
 }
