@@ -8,10 +8,7 @@ function App() {
   const cells = data.map(cell => {
     return <Cell 
                 key = {cell.id}
-                cellName = {cell.cellName}
-                img = {`../../images/${cell.image}`}
-                description = {cell.description}
-                blackAndWhite = {cell.blackAndWhite}/>
+                item = {cell}/>
   })
 
   return (
