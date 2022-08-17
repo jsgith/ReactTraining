@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     align-items: center;
@@ -15,4 +16,15 @@
 
 .header--title {
     font-size: 20px;
+}
+
+.form {
+    padding: 10px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--button_img {
+    grid-column: 1 / -1;  /*column from the biggining to the end*/
 }
