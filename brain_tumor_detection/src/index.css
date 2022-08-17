@@ -1,3 +1,6 @@
+main {
+    font-family:  'Belleza', sans-serif;
+}
 
 .header {
     display: flex;
@@ -7,6 +10,7 @@
     color:white;
     padding: 20px;
     border-radius: 10px;
+    font-family: 'Fahkwang', sans-serif;;
 }
 
 .header--img {
@@ -15,7 +19,7 @@
 }
 
 .header--title {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .form {
@@ -27,4 +31,11 @@
 
 .form--button_img {
     grid-column: 1 / -1;  /*column from the biggining to the end*/
+    font-family:  'Belleza', sans-serif;
+    font-size: 15px;
+}
+
+.form--button {
+    font-family: 'Belleza', sans-serif;
+    font-size: 15px;
 }
