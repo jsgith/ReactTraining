@@ -1,0 +1,61 @@
+main {
+    font-family:  'Belleza', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Fahkwang', sans-serif;;
+}
+
+.header--img {
+    height: 100%;
+    margin-right: auto;
+}
+
+.header--title {
+    font-size: 30px;
+}
+
+.form {
+    padding: 10px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--button_img {
+    grid-column: 1 / -1;  /*column from the biggining to the end*/
+    font-family:  'Belleza', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form--button {
+    font-family: 'Belleza', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form--button:hover {
+    font-family: 'Belleza', sans-serif;
+    font-size: 15px;
+    background-color: cadetblue;
+    transition: 0.7s;
+}
+
+.form--button_img:hover {
+    font-family: 'Belleza', sans-serif;
+    font-size: 15px;
+    background-color: lemonchiffon;
+    transition: 0.7s;
+}
