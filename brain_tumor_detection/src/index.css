@@ -64,4 +64,15 @@ main {
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    
+}
+
+.validate {
+    position: absolute;
+    margin-left: 47%;
+    color: white;
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 0px 5px;
+    
 }
