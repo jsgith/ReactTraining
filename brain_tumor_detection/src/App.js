@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Header';
-import ImgValidator from './components/ImgValidator';
+import ImgSlide from './components/ImgSlide';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <ImgValidator/>
+      <ImgSlide/>
     </div>
   );
 }
