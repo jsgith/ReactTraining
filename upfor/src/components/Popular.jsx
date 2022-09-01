@@ -17,7 +17,7 @@ function Popular() {
             <Wrapper >
                 <h3>Popular Picks</h3>
                 <Splide options={{
-                    perPage: 3,
+                    perPage: 4,
                     arrows: false,
                     pagination: false,
                     drag: 'free',
@@ -25,7 +25,7 @@ function Popular() {
                 }}>
                     {serviceDataArray.map((service) => {
                         return(
-                            <SplideSlide>
+                            <SplideSlide key={service.id}>
                                 <Card>
                                     <p>{service.title}</p>
                                     <img src={service.img_url} alt={service.title}/>
