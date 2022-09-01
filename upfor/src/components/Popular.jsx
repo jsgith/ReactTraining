@@ -17,7 +17,11 @@ function Popular() {
             <Wrapper >
                 <h3>Popular Picks</h3>
                 <Splide options={{
-                    perPage: 4,
+                    perPage: 3,
+                    arrows: false,
+                    pagination: false,
+                    drag: 'free',
+                    gap: "5rem",
                 }}>
                     {serviceDataArray.map((service) => {
                         return(
@@ -43,12 +47,25 @@ const Card = styled.div`
     min-height: 25rem;
     border-radius: 2rem;
     overflow: hidden;
+    position: relative;
 
     img{
         border-radius: 2rem;
-        width: 300px;
-        height: 300px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        object-fit: cover;
     }
+
+    p {
+        position: absolute;
+        z-index: 10;
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%, 0%);
+    }
+
 `;
 
 export default Popular;
