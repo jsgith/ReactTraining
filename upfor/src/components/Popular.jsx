@@ -64,6 +64,16 @@ const Card = styled.div`
         left: 50%;
         bottom: 0%;
         transform: translate(-50%, 0%);
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 0 3px black, 0 0 5px black;
     }
 
 `;
