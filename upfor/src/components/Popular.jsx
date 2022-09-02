@@ -15,7 +15,7 @@ function Popular() {
     return (
         <div>
             <Wrapper >
-                <h3>Popular Picks</h3>
+                <h3>Populares</h3>
                 <Splide options={{
                     perPage: 4,
                     arrows: false,
@@ -45,7 +45,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-    min-height: 25rem;
+    min-height: 13rem;
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
