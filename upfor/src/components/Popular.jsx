@@ -15,9 +15,9 @@ function Popular() {
     return (
         <div>
             <Wrapper >
-                <h3>Popular Picks</h3>
+                <h3>Populares</h3>
                 <Splide options={{
-                    perPage: 3,
+                    perPage: 4,
                     arrows: false,
                     pagination: false,
                     drag: 'free',
@@ -25,10 +25,11 @@ function Popular() {
                 }}>
                     {serviceDataArray.map((service) => {
                         return(
-                            <SplideSlide>
+                            <SplideSlide key={service.id}>
                                 <Card>
                                     <p>{service.title}</p>
                                     <img src={service.img_url} alt={service.title}/>
+                                    <Gradient />
                                 </Card>
                             </SplideSlide>
                         );
@@ -44,7 +45,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-    min-height: 25rem;
+    min-height: 13rem;
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
@@ -77,5 +78,13 @@ const Card = styled.div`
     }
 
 `;
+
+const Gradient = styled.div`
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+`
 
 export default Popular;
