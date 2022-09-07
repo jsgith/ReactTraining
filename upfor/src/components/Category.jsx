@@ -8,19 +8,19 @@ import {NavLink} from 'react-router-dom';
 function Category() {
   return (
     <List>
-        <NavLink to={"/activities/literatura"}>
+        <NavLink to={"/actividades/literatura"}>
             <IoBookSharp/>
             <h4>Catequese, Leitura</h4>
         </NavLink>
-        <NavLink to={"/activities/agricultura"}>
+        <NavLink to={"/actividades/agricultura"}>
             <MdAgriculture/>
             <h4>Plantar, Semear, Colher, Alimentar Animais</h4>
         </NavLink>
-        <NavLink to={"/activities/desporto"}>
+        <NavLink to={"/actividades/desporto"}>
             <MdSportsSoccer/>
             <h4>Futebol, Ténis, Badminton, Basquetebol, Natação</h4>
         </NavLink>
-        <NavLink to={"/activities/aprendizagem"}>
+        <NavLink to={"/actividades/aprendizagem"}>
             <SiGoogleclassroom/>
             <h4>Aulas, Palestras</h4>
         </NavLink>
