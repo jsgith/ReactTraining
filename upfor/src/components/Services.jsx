@@ -9,14 +9,14 @@ function Services(props) {
     
     const [allServices] = React.useState(serviceData);
 
-    const serviceDataArray = allServices.data;
+    const serviceDataArray = allServices.services;
 
     return (
         <div>
             <Wrapper >
                 <h3>Todos os Serviços</h3>
                 <Splide options={{
-                    perPage: 3,
+                    perPage: 4,
                     arrows: false,
                     pagination: false,
                     drag: 'free',

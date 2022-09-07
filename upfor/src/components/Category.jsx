@@ -1,30 +1,29 @@
+import React from 'react';
 import { IoBookSharp } from "react-icons/io5";
 import {MdSportsSoccer, MdAgriculture} from "react-icons/md";
 import {SiGoogleclassroom} from "react-icons/si";
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 
-import React from 'react';
-
 function Category() {
   return (
     <List>
-        <div>
+        <NavLink to={"/actividades/literatura"}>
             <IoBookSharp/>
             <h4>Catequese, Leitura</h4>
-        </div>
-        <div>
+        </NavLink>
+        <NavLink to={"/actividades/agricultura"}>
             <MdAgriculture/>
             <h4>Plantar, Semear, Colher, Alimentar Animais</h4>
-        </div>
-        <div>
+        </NavLink>
+        <NavLink to={"/actividades/desporto"}>
             <MdSportsSoccer/>
             <h4>Futebol, Ténis, Badminton, Basquetebol, Natação</h4>
-        </div>
-        <div>
+        </NavLink>
+        <NavLink to={"/actividades/aprendizagem"}>
             <SiGoogleclassroom/>
             <h4>Aulas, Palestras</h4>
-        </div>
+        </NavLink>
     </List>
   )
 }

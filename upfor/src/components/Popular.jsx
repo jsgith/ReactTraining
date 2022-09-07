@@ -8,7 +8,7 @@ function Popular() {
 
     const [allServices] = React.useState(serviceData);
 
-    const serviceDataArray = allServices.data;
+    const serviceDataArray = allServices.popular;
 
     console.log(serviceDataArray);
     
@@ -17,7 +17,7 @@ function Popular() {
             <Wrapper >
                 <h3>Populares</h3>
                 <Splide options={{
-                    perPage: 4,
+                    perPage: 3,
                     arrows: false,
                     pagination: false,
                     drag: 'free',
