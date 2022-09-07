@@ -1,6 +1,6 @@
 const data = {
     "title": "Set of imges for activities",
-    "data": [
+    "services": [
         {
             "id":"1",
             "title": "Ser Catequista - 6º Ano",
@@ -66,6 +66,33 @@ const data = {
             "id":"13",
             "title":"Melhorar o website da Paróquia",
             "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fwebsite.jpg?alt=media&token=9cb92027-def5-4579-9dc9-9b2ceac7bfb7"
+        }
+    ],
+    "popular": [
+        {
+            "id":"14",
+            "title":"Servir na Sala de Chá",
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Ftea.jpg?alt=media&token=4c224d8e-3790-4ac5-8268-6733b626eb9c"
+        },
+        {
+            "id":"15",
+            "title":"Coro Liturgico",
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fchoir.jpg?alt=media&token=50215cff-3af8-4520-864b-1d4a80311f49"
+        },
+        {
+            "id":"16",
+            "title":"Passeio de Bicicleta",
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fmountain_biking.jpg?alt=media&token=ca173dff-e0a4-4d1e-8982-eda32d4bc105"
+        },
+        {
+            "id":"17",
+            "title":"Grupo de Teatro",
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fteatro.jpg?alt=media&token=4cf1df54-a10b-47db-aecf-1b5b48efdd68"
+        },
+        {
+            "id":"18",
+            "title":"Jardinar os jardins da Igreja",
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fgardening.jpg?alt=media&token=63dd4a53-e579-42f3-b237-b3b4c30bb8c4"
         }
     ]
 }
