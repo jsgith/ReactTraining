@@ -10,19 +10,19 @@ function Category() {
     <List>
         <NavLink to={"/actividades/literatura"}>
             <IoBookSharp/>
-            <h4>Catequese, Leitura</h4>
+            <h4>Literatura</h4>
         </NavLink>
         <NavLink to={"/actividades/agricultura"}>
             <MdAgriculture/>
-            <h4>Plantar, Semear, Colher, Alimentar Animais</h4>
+            <h4>Agricultura</h4>
         </NavLink>
         <NavLink to={"/actividades/desporto"}>
             <MdSportsSoccer/>
-            <h4>Futebol, Ténis, Badminton, Basquetebol, Natação</h4>
+            <h4>Desporto</h4>
         </NavLink>
         <NavLink to={"/actividades/aprendizagem"}>
             <SiGoogleclassroom/>
-            <h4>Aulas, Palestras</h4>
+            <h4>Aulas</h4>
         </NavLink>
     </List>
   )
