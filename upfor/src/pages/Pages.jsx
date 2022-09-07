@@ -5,12 +5,10 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 function Pages(props) {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/activities" element={<Activities/>}/>
-            </Routes>
-        </BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/activities/:type" element={<Activities/>}/>
+        </Routes>
     );
 }
 
