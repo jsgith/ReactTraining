@@ -21,7 +21,7 @@ function Popular() {
                     arrows: false,
                     pagination: false,
                     drag: 'free',
-                    gap: "5rem",
+                    gap: "3rem",
                 }}>
                     {serviceDataArray.map((service) => {
                         return(

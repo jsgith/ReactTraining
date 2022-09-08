@@ -20,7 +20,7 @@ function Services(props) {
                     arrows: false,
                     pagination: false,
                     drag: 'free',
-                    gap: "5rem",
+                    gap: "2rem",
                 }}>
                     {serviceDataArray.map((service) => {
                         return(
