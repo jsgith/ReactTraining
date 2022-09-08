@@ -9,8 +9,6 @@ function Popular() {
     const [allServices] = React.useState(serviceData);
 
     const serviceDataArray = allServices.popular;
-
-    console.log(serviceDataArray);
     
     return (
         <div>
