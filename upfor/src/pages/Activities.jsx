@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import {useParams} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import allData from '../data';
 
 function Activities() {
@@ -30,8 +30,10 @@ function Activities() {
       {data.map((image) => {
         return(
           <Card key={image.id}>
+            <Link to={"/details/" + image.id}>
               <img src={image.img_url} alt=""/>
               <h4>{image.title}</h4>
+            </Link>
           </Card>
         );
       })}

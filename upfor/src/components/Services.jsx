@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components"; 
 import serviceData from "../data";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Link } from 'react-router-dom';
 import '@splidejs/splide/dist/css/splide.min.css';
 
 function Services(props) {
@@ -26,9 +27,11 @@ function Services(props) {
                         return(
                             <SplideSlide key={service.id}>
                                 <Card>
-                                    <p>{service.title}</p>
-                                    <img src={service.img_url} alt={service.title}/>
+                                    <Link to={"/details/" + service.id}>
+                                        <p>{service.title}</p>
+                                        <img src={service.img_url} alt={service.title}/>
                                     <Gradient />
+                                    </Link>
                                 </Card>
                             </SplideSlide>
                         );

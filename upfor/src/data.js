@@ -4,18 +4,23 @@ const data = {
         {
             "id":"1",
             "title": "Ser Catequista - 6º Ano",
-            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fcatechism.jpg?alt=media&token=02659f81-e499-443f-b030-b1b4f895a10d"
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fcatechism.jpg?alt=media&token=02659f81-e499-443f-b030-b1b4f895a10d",
+            "summary": "Dar catequese a um grupo de adolescentes do 6ºano no centro comunitário. Grupo calmo, que tem vindo a fazer um caminho de fé bom e com empenho. Gostam de aprender, e de fazer perguntas",
+            "info": "Turma com adolescentes de diferentes regiões da Benedita, 3 rapazes e 7 raparigas."
         },
         {
             "id":"2",
             "title": "Tratar das Galinhas",
-            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fchicken.jpg?alt=media&token=c1638623-349f-486d-8461-493fc514294d"
-
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fchicken.jpg?alt=media&token=c1638623-349f-486d-8461-493fc514294d",
+            "summary": "Tratar das galinhas da paróquia durante as próximas duas semanas.",
+            "info": "Comem minho e trigo que se encontra na casa de arrumação ao lado do galinheiro. Deve-se dar uma medida de trigo e outra de minho. Basta uma vez por dia. Também verificar se têm água."
         },
         {
             "id":"3",
             "title": "Limpar as casas de banho do Centro Comunitário",
-            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fcleaning.jpg?alt=media&token=d7be2c6e-7145-4e4e-bfa1-978bbcbdf330"
+            "img_url":"https://firebasestorage.googleapis.com/v0/b/reacttraining-8e53c.appspot.com/o/services%2Fcleaning.jpg?alt=media&token=d7be2c6e-7145-4e4e-bfa1-978bbcbdf330",
+            "Summary": "Limpar as casas de banho públicas do centro comunitário uma vez por semana durante os mêses de Julho, Agosto e Setembro",
+            "info": "O material de limpeza está na arrecadação ao lado da sala de chá. Existem detergentes, esfregonas, "
         },
         {
             "id":"4",
