@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components"; 
 import serviceData from "../data";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Link } from 'react-router-dom';
 import '@splidejs/splide/dist/css/splide.min.css';
 
 function Services(props) {
@@ -20,15 +21,17 @@ function Services(props) {
                     arrows: false,
                     pagination: false,
                     drag: 'free',
-                    gap: "5rem",
+                    gap: "2rem",
                 }}>
                     {serviceDataArray.map((service) => {
                         return(
                             <SplideSlide key={service.id}>
                                 <Card>
-                                    <p>{service.title}</p>
-                                    <img src={service.img_url} alt={service.title}/>
+                                    <Link to={"/details/" + service.id}>
+                                        <p>{service.title}</p>
+                                        <img src={service.img_url} alt={service.title}/>
                                     <Gradient />
+                                    </Link>
                                 </Card>
                             </SplideSlide>
                         );
@@ -40,7 +43,7 @@ function Services(props) {
 }
 
 const Wrapper = styled.div`
-    margin: 4rem 0rem;
+    margin: 2rem 0rem;
 `;
 
 const Card = styled.div`
