@@ -7,6 +7,9 @@
 
 body {
   margin: 0% 20%;
+  /* box-shadow: 1px 1px 100px 1px darkgray; */
+  box-shadow: 0px 30px 40px 10px rgba(0,0,0,.1);
+  padding: 3px 30px 5px 30px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
